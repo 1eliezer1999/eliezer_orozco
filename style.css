@@ -1,0 +1,139 @@
+
+/* en el body se mostrara cómo se verá y se presentará el contenido de la página*/
+body {
+   background-image: linear-gradient(lightblue, darkblue);
+   justify-content: center;
+   display: flex;
+   height: 100vh;
+   margin: 110;
+   padding: 70;
+}
+
+
+.principal{
+    background: linear-gradient(360deg, #ddf6b8 30%,#1d7d8e 70%);
+    width: 82%;
+    height: 70 px;
+    border-radius: 1%;
+    margin-top: 10%;
+    margin-bottom: 12%;
+ }
+
+ .impedir{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 50%;
+ }
+
+ .left{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 27% 20% 20% 40%;
+ 
+ }
+ .right{
+   background-color: rgba(15, 15, 15, 0.356);
+   border-radius: 27% 20% 2% 40%;
+ }
+ h1{
+   color: white;
+ text-shadow: #000000;
+ }
+
+ h2{
+   color: white;
+ text-shadow: #000000;
+ }
+
+ .right h2{
+   text-align: center;
+ }
+ 
+ .right h2::first-letter{
+   color: darkorange;
+ }
+ 
+ .left h1::first-letter{
+   color: darkred;
+ }
+ 
+
+ .img{
+    width: 100%;
+ }
+
+ .Acceso{
+    width: 105px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: green;
+    border-radius: 120px;
+    margin-bottom: 60px;
+    justify-content: center;
+ }
+ .Acceso:hover{
+    background-color: rgb(216, 155, 12);
+ }
+
+ .right .texto{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ 
+ .right .ingresar{
+   display: flex;
+   flex-direction: column;
+   margin-top: 0px;
+ }
+
+ .ingresar label{
+    color: white;
+ }
+ .ingresar input{
+    width: 230px;
+    height: 40px;
+    border-radius: 1000px;
+    
+ }
+
+ .ingresar select{
+    width: 240px;
+    height: 50px;
+    border-radius: 70px;
+   
+
+ }
+
+ .ingresar textarea{
+    width: 240px;
+    height: 40px;
+    border: 80px;
+    
+ }
+
+ .save:hover{
+   background-color: rgb(6, 235, 14);
+}
+
+ .ingresar .save{
+    width: 100px;
+    height: 21px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 100px;
+    margin-top: 5px;
+    background-color: rgb(5, 235, 235);
+ }
+
+ a:hover {
+   background-color: #555;
+ }
+ 
+
+
